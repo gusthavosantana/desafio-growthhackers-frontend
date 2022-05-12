@@ -1,11 +1,10 @@
-import React from 'react';
-import './App.css';
+import { Container, Typography } from '@mui/material';
 
 function App() {
   return (
-    <div className="App">
-      
-    </div>
+    <Container maxWidth="md">
+      <Typography variant="h1">Desafio Growth Hackers</Typography>
+    </Container>
   );
 }
 
