@@ -1,9 +1,11 @@
-import { Container, Typography } from '@mui/material';
+import { Container, Divider, Typography } from '@mui/material';
 
-function App() {
+function App({ children }: any) {
   return (
     <Container maxWidth="md">
-      <Typography variant="h1">Desafio Growth Hackers</Typography>
+      <Typography variant="h2">Desafio Growth Hackers</Typography>
+      <Divider sx={{ marginBottom: 5, marginTop: 2 }}/>
+      {children}
     </Container>
   );
 }
