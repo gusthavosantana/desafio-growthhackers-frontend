@@ -50,6 +50,10 @@
     ]
   },
   "devDependencies": {
-    "miragejs": "^0.1.43"
+    "miragejs": "^0.1.43",
+    "msw": "^0.39.2"
+  },
+  "msw": {
+    "workerDirectory": "public"
   }
 }
