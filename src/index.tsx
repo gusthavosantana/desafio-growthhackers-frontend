@@ -8,12 +8,6 @@ import CategoryRegister from './pages/categories/Register';
 import ProductRegister from './pages/products/Register';
 import { Toaster } from 'react-hot-toast';
 import { RootProvider } from './providers';
-// import Products from './pages/products/List';
-// import { makeServer } from './services/miragejs';
-
-// if (process.env.NODE_ENV === 'development') {
-//   makeServer({ environment: process.env.NODE_ENV });
-// }
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
